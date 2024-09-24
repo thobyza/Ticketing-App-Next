@@ -6,7 +6,7 @@ const NavBar = () => {
       <div className="flex items-center gap-4">
         <Link href="/">
           <span className="text-[15px]">Home</span>
-        </Link>
+        </Link> 
         <Link href="/TicketPage/New">
           <span className="text-[15px]">Tickets</span>
         </Link>
