@@ -2,17 +2,17 @@ import Link from "next/link"
 
 const NavBar = () => {
   return (
-    <nav className="flex justify-between w-full bg-surface-100 text-white px-[128px] py-1">
-      <div className="flex items-center gap-4">
+    <nav className="flex justify-between items-center w-full bg-surface-600 border border-border-custom text-white custom-padding py-2 ">
+      <div className="flex items-center gap-6">
         <Link href="/">
-          <span className="text-[15px]">Home</span>
+          <span className="text-[13px]">Home</span>
         </Link> 
         <Link href="/TicketPage/New">
-          <span className="text-[15px]">Tickets</span>
+          <span className="text-[13px]">Tickets</span>
         </Link>
       </div>
       <div>
-        <p className="">mike@mail.com</p>
+        <p className="text-[13px]">mike@mail.com</p>
       </div>
     </nav>
   )

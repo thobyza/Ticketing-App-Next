@@ -9,9 +9,9 @@ interface ParamsProps {
 
 const TicketPage = ({ params }: ParamsProps) => {
   return (
-    <div>
+    <section className="custom-padding text-white  my-5">
       TicketPage {params.id}
-    </div>
+    </section>
   )
 }
 

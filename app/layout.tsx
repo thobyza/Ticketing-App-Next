@@ -2,17 +2,19 @@ import type { Metadata } from "next";
 // import localFont from "next/font/local";
 import "./globals.css";
 import NavBar from "./(components)/NavBar";
+// import { Comfortaa } from '@next/font/google'
 
 // const geistSans = localFont({
 //   src: "./fonts/GeistVF.woff",
 //   variable: "--font-geist-sans",
 //   weight: "100 900",
 // });
-// const geistMono = localFont({
-//   src: "./fonts/GeistMonoVF.woff",
-//   variable: "--font-geist-mono",
-//   weight: "100 900",
-// });
+
+// const comfortaa = Comfortaa({
+//   weight: ['300', '400', '700'],
+//   subsets: ['latin'],
+//   display: 'swap',
+// })
 
 export const metadata: Metadata = {
   title: "Ticket App",
@@ -28,11 +30,11 @@ export default function RootLayout({
     <html lang="en">
       <body
         // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-        className={`antialiased`}
+        className={`antialiased `}
       >
-        <div className="h-screen flex flex-col max-h-screen w-full">
+        <div className="h-screen flex flex-col max-h-screen w-full comfortaa-font">
           <NavBar/>  
-          <div className="flex-grow overflow-y-auto">
+          <div className="flex-grow overflow-y-auto bg-surface-500">
             {children}
           </div>
         </div>
