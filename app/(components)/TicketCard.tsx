@@ -19,7 +19,7 @@ const TicketCard = () => {
 			</p>
 			<div className="flex items-center justify-between mt-2">
 				<div className="flex flex-col gap-[0.15rem]">
-              <p className="text-[12px] text-text-dimmed-2">08/31/24 10:21PM</p>
+				  <p className="text-[12px] text-text-dimmed-2 comfortaa-font">08/31/24 10:21PM</p>
 					<ProgressDisplay />
 				</div>
            <div className="ml-auto">
